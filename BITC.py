@@ -1,4 +1,6 @@
 #Basic earning-tax calculator
+import streamlit as st
+st.write("Hello — app started okay")
 
 earning = float(input("Enter your Taxable earning: "))
 tax = 0
