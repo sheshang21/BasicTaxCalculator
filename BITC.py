@@ -50,4 +50,5 @@ if tax <= 0:
     st.write("NO TAX PAYABLE")
 else:
     st.write("Basic Tax: ","₹ ",round(tax))
+    st.write("Cess: ","₹ ",round(tax*0.04))
     st.write("Total Tax Payable: ","₹ ",round(TotalTax))
